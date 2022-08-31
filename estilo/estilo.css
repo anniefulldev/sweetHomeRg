@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Playfair+Display:ital,wght@1,700&display=swap');
+*{
+    margin:0;
+    padding:0; 
+    background-color: rgb(245, 231, 231);
+}
+header{
+    background-color: rgb(61, 61, 255);
+}
+a{
+    text-decoration: none;
+    color: #ff9800;
+    background-color: rgb(61, 61, 255);
+    font-family: 'oswald';
+}
+.enlaceGrande{
+    text-decoration: none;
+    color: #ff9800;
+    background-color: rgb(61, 61, 255);
+    font-weight: bold;
+    font-family: 'oswald';
+    font-size: 4rem;
+    margin: 4rem;
+    position: relative;
+}
+.contacto{
+    text-align: center;
+}
+a:hover{
+    color: rgb(255, 253, 211);
+}
+ul li{
+    text-decoration: none;
+    display: inline-block;
+    background-color: rgb(61, 61, 255);
+    font-size: 2.5rem;
+    margin: 1rem;
+    font-family: 'oswald';
+    font-weight: bold;
+}
+.menu{
+    background-color: rgb(61, 61, 255);
+    text-align: center;
+}
+img{
+    width: 25rem;
+    height: 18rem;                                         
+    border:0.5rem;
+    border-style: ridge;
+    border-radius: 0.7rem;
+    margin: 2.5rem;
+    padding: 0.12rem;
+    transition: height 1s, width 1s;
+}
+.logo{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 18rem;
+    height: 13rem;
+}
+.vertical{
+    width: 20rem;
+    height: 18rem;
+    border:0.5rem;
+    border-style: ridge;
+    border-radius: 0.7rem;
+    margin: 2.5rem;
+    padding: 0.12rem;
+}
+.imgTop, .imgBottom{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.tituloDePag{
+    font-family: 'playfair';
+    font-size: 5rem;
+    color: rgb(61, 61, 255);
+    text-align: center;
+    margin: 3rem;
+}
+.descripcionDePag{
+    font-family: 'playfair';
+    font-size: 3rem;
+    color: black;
+    text-align: center;
+    margin: 3rem;
+}
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.parallax{
+    background-image: url("../media/portadas/parallax.jpg");
+    height: 10rem;
+    margin-top: 1%;
+    padding-top: 5rem;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+p{
+    color: rgb(61, 61, 255);
+    font-family: 'oswald';
+    font-size: 3.2rem;
+    text-align: center;
+}
+footer{
+    background-color: rgb(61, 61, 255);
+    text-align: center;
+    font-family: 'oswald';
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    font-size: 2.5rem;
+    margin:1.12rem;
+    font-weight: bold;
+    border: 0.3rem;
+    color: rgb(61, 61, 255);
+    border-style: solid;
+}
+@media (max-width:480px) {
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    .logo{
+        margin: 0;
+    }
+}
+@media (max-width:1023px) {
+    body{
+        display:flex;
+        flex-direction: column;
+    }
+}
+
